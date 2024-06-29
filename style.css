@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    width: 100%;
+    background-color: rgba(3, 4, 61, 0.808);
+}
+h1{
+color: white;
+}
+.cat{
+    color: white;
+}
+.head .shopname{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.head .shopname :nth-child(1){
+    margin-right: auto;
+}
+.head .shopname img{
+    width: 45px;
+    border-radius: 100px;
+}
+.header{
+    width: 100%;
+    margin: auto;
+}
+.header .searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.header .searchbar input{
+    text-align: center;
+    width: 70%;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid rgb(121, 117, 117);
+}
+svg{
+    fill: white;
+}
+.upload{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px auto;
+}
+.upload a{
+    text-decoration: none;
+    color: wheat;
+}
+.upload a:hover{
+    text-decoration: underline;
+    color: red;
+}
+h3{
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.categories{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categories .images{
+    border: 1px solid lightgray;
+    height: 120px;
+    margin: 3px 3px;
+    font-size: 12px;
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+}
+.categories .images:hover{
+    cursor: pointer;
+}
+.categories .images img{
+    width: 90px;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.advert{
+    width: 100%;
+}
+.advertposter{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+.advertposter img{
+    width: 270px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px rgb(2, 2, 2);
+}
+.scroller_inner{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .box{
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    width: 45%;
+    overflow: hidden;
+    height: 280px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    line-height: 1.5em;
+}
+.container .box .product{
+    width: 100%;
+}
+.details{
+    margin-left: 5px;
+}
+.container .box .product button{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .box .product img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+.categories2{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.categories2 .images{
+    border: 1px solid lightgray;
+    height: 230px;
+    margin: 3px 3px;
+    font-size: 12px;
+    display: flex;
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+}
+.categories2 .images:hover{
+    cursor: pointer;
+}
+.categories2 .images img{
+    width: 140px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.categories2 .images button{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 3px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.brand{
+    width: 100%;
+    margin: 10px auto;
+}
+.brand .bnd{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+.brand .bnd img{
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50px 20px 50px 20px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(3, 4, 61, 0.808);
+}
